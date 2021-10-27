@@ -24,11 +24,6 @@ describe("Efetuando reserva de hotel", () => {
         cy.get('[class="age-child__age form-group"] [id="rooms[0].children.ages[1]"]').select('10 anos')
         cy.get('#travel-package-confirm').click()
         cy.get('#searchHotelSubmit').click()
-        
-        // cy.get(':nth-child(4) > .age-child').contains('#rooms\[0\]\.children\.ages\[0\]').contains('9 anos').click()
-        // cy.get('#rooms\[0\]\.children\.ages\[0\]').click()
-        
-     
 
     })
 })
